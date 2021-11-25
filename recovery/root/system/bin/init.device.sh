@@ -3,17 +3,15 @@
 
 prjName=$(cat /proc/oplusVersion/prjVersion)
 echo $prjName
-
+resetprop "ro.product.product" "RMX6785"
 case $prjName in
     "20682")
-        resetprop "ro.product.model" "Realme 7/ Narzo 20 Pro "
-        resetprop "ro.build.product" "RMX2151"
-        resetprop "ro.product.device" "RMX2151"
+        resetprop "ro.product.model" "Realme RMX6785"
+        resetprop "ro.build.device" "RMX2151"
         ;;
     *)
-        resetprop "ro.product.model" "Realme 6"
-        resetprop "ro.build.product" "RMX2001"
-        resetprop "ro.product.device" "RMX2001"
+        resetprop "ro.product.model" "Realme RMX6785"
+        resetprop "ro.build.device" "RMX2001"
         ;;
 esac
 
