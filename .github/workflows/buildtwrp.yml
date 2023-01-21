@@ -13,7 +13,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Gofaraway71/twrp-RMX2151-A12.1'
+        default: 'https://github.com/Gofaraway71/twrp_rui2_RMX6785'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -21,7 +21,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/realme/RMX2151'
+        default: 'device/realme/RMX6785'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -31,11 +31,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'RMX2151'
+        default: 'RMX6785'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_RMX2151'
+        default: 'twrp_RMX6785'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
